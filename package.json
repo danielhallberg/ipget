@@ -1,25 +1,25 @@
 {
-    "name": "appengine-ipget",
-    "description": "Simple IP address lookup",
-    "version": "0.0.1",
-    "private": true,
-    "license": "Apache-2.0",
-    "author": "Some Dude",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/danielhallberg/ipget"
-    },
-    "engines": {
-      "node": ">=8.0.0"
-    },
-    "scripts": {
-      "start": "node ipget.js"
-    },
-    "dependencies": {
-      "express": "^4.16.3"
-    },
-    "devDependencies": {
-      "mocha": "^6.1.4",
-      "supertest": "^4.0.2"
-    }
+  "name": "ipget",
+  "description": "Simple IP address lookup",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Some Dude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielhallberg/ipget"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node ipget.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
   }
+}
